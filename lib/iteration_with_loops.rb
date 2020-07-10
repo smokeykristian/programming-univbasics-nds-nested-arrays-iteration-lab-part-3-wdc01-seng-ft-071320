@@ -7,9 +7,9 @@ def join_nested_strings(src)
       if  src[count][inner_count].class == String
       str << src[count][inner_count] 
       else
-      inner_count += 1
+     
       end
-      
+       inner_count += 1
     end
   end
   # src will be an Array of Arrays of Strings and Integers
