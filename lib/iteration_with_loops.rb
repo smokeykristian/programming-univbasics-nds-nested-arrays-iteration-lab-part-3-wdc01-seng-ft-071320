@@ -1,14 +1,15 @@
 def join_nested_strings(src)
   row_index = 0 
-  str = []
-  while row_index < src.length do
-    inner_count = 0 
-    while inner_count < src[count].length do
-      if  src[count][inner_count].class == String
-      str << src[count][inner_count] 
-      else
-     
+  str = ""
+  sentence = []
+  while row_index < src.count do
+    element_index = 0 
+    while element_index < src[row_index].count do
+      if  src[row_index][element_index].class == String
+      
+      str = src[count][inner_count] 
       end
+      sentence << str
        inner_count += 1
     end
   end
