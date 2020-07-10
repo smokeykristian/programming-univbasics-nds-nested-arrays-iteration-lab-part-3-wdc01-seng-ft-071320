@@ -10,7 +10,7 @@ def join_nested_strings(src)
       str = src[row_index][element_index] 
       end
       sentence << str
-       inner_count += 1
+      element_index += 1
     end
   end
   # src will be an Array of Arrays of Strings and Integers
